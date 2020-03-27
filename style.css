@@ -81,6 +81,7 @@ h3{
     margin: 3rem 0 1rem 6rem;
 }
 
+
 .articles h1{
     margin-top: 6rem;
     margin-bottom: 2rem;
@@ -117,4 +118,40 @@ h3{
     margin-bottom: 0;
     padding-left: 1rem;
     margin-top: 1rem;
+}
+
+
+.footer{
+    margin-top: 8rem;
+    background-color:hsl(233, 26%, 24%) ;
+}
+
+.footer{
+    padding-left: 6rem;
+}
+
+.social-media{
+    /* margin-top: 2rem; */
+    margin-bottom: 2rem;
+}
+
+.social-media img{
+   padding-right: 1rem;
+}
+
+.footer img{
+    margin-top: 2rem;
+}
+
+.footer p{
+    margin-top: 2rem;
+    color: hsl(0, 0%, 98%);
+}
+
+.mini-nav a{
+    text-decoration: double;
+    color:hsl(0, 0%, 100%) ;
+    display: block;
+    text-align: center;
+    padding-left: 2rem;
 }
