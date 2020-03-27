@@ -28,7 +28,7 @@ h1{
 
 
 /* p{
-    color: hsl(0, 0%, 98%);
+    color: 	#A9A9A9
 } */
 
 button{
@@ -48,6 +48,9 @@ h3{
 }
 
 /* General */
+.nav{
+    display: none;
+}
 
 .nav-bar{
     display: flex;
@@ -145,13 +148,110 @@ h3{
 
 .footer p{
     margin-top: 2rem;
-    color: hsl(0, 0%, 98%);
+    padding-bottom: 2rem;
+    color: 	#A9A9A9
 }
 
 .mini-nav a{
     text-decoration: double;
     color:hsl(0, 0%, 100%) ;
     display: block;
-    text-align: center;
+    text-align: initial;
     padding-left: 2rem;
+}
+
+
+@media only screen and (min-width:1440px){
+    nav{
+        display: flex;
+    }
+
+    .nav-bar{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav{
+        display: inline-block;
+        padding-left: 6rem;
+    }
+
+
+    .nav a {
+        padding-right: 4rem;
+        text-decoration: none;
+        color:	#A9A9A9
+    }
+
+    #harmburger{
+        display: none;
+    }   
+    
+    .banner img{
+        width: 500px;
+        background: url(images/bg-intro-desktop.svg);
+    }
+
+    .next-banner{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .services{
+        display: flex;
+        margin-bottom: 4rem;
+    }
+
+
+    .service h3{
+        text-align: justify;
+        padding-left: 6rem;
+    }
+
+    .why-choose{
+        padding-bottom: 2rem;
+        margin-bottom: 6rem;
+    }
+
+    .why-choose h1, p{
+        text-align: left;
+        padding-left: 4rem;
+    }
+
+    .articles h1{
+        display: inline-block;
+        margin-top: -3rem;
+        padding-left: 4rem;
+    }
+
+   .articles, .footer{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .articles{
+        margin-left: -25rem;
+        justify-content: space-around;
+    }
+
+    .article{
+        width: 250px;
+        height: 550px;
+
+    }
+
+    .article img{
+        width: 250px;
+    }
+
+    #lower-button{
+        padding: 0;
+        width: 15rem;
+        height: 3rem;
+    }
+
+    .footer{
+        justify-content: space-around;
+    }
+
 }
