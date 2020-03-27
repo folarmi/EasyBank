@@ -16,7 +16,7 @@ body{
 }
 
 .main-wrapper{
-    margin: 2rem;
+    overflow: hidden;
 }
 
 /* Utilities */
@@ -34,6 +34,7 @@ button{
     width: 10rem;
     padding: 0.7rem;
     border-radius: 2rem;
+    margin-top: 2rem;
     margin-left: 3rem;
     color: white;
     background-image: linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
@@ -44,23 +45,31 @@ button{
 
 .nav-bar{
     display: flex;
-    margin: 1.0rem;
-    margin-bottom: 0;
+    margin: 2rem;
 }  
 
 #harmburger{
-    padding-left: 11rem;
-}
-
-.banner{
-    background-color: hsl(0, 0%, 98%);
+    padding-left: 9rem;
 }
 
 .banner img{
-    width: 370px;
+    width: 375px;
     background: url(images/bg-intro-mobile.svg);
 }
 
 .banner h1{
     margin-top: 4rem;
+}
+
+.next{
+    margin: 3rem 2rem 6rem 2rem;
+}
+
+.why-choose{
+    background-color:hsl(220, 16%, 96%) ;
+    padding: 3rem ;
+}
+
+.why-choose img{
+    margin-left: 6rem;
 }
