@@ -13,9 +13,13 @@
         <nav>
             <div class="nav-bar">
                 <img src="images/logo.svg" alt="">
-                <img src="images/icon-hamburger.svg" alt="" id="harmburger">
+                <div class="harmburger" id = "harmburger" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
 
-                <div class="nav">
+                <div class="nav" id="nav-bar">
                 <a href="">Home</a>
                 <a href="">About</a>
                 <a href="">Contact</a>
@@ -37,7 +41,8 @@
 
             <h1>Next generation digital banking</h1>
 
-            <p>Take your financial life online. Your Easybank account will be a one-stop shop for spending,saving,budgeting,investing and much more.</p><button type="submit">Request Invite</button>
+            <p>Take your financial life online. Your Easybank account will be a one-stop shop for spending,saving,budgeting,investing and much more.</p>
+            <button type="submit" id="next-button">Request Invite</button>
         </div>
 
     </div>
@@ -137,8 +142,11 @@
                 <button type="submit" id="lower-button">Request Invite</button>
                 <p> &#169; EasyBank. All Rights Reserved</p>
             </div>
+
             </div>
         </footer>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>

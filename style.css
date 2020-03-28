@@ -9,8 +9,6 @@
 }
 
 body{
-    /* margin-left: 2rem;
-    margin-right: 2rem; */
     font-family: 'Public Sans', sans-serif;
     line-height: 2rem;
 }
@@ -48,8 +46,65 @@ h3{
 }
 
 /* General */
+/* Harmburger Styling */
+
+.harmburger {
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:hsl(136, 65%, 51%);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+}
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
 .nav{
-    display: none;
+    text-align: center;
+    margin-top: 6.5rem;
+    position: relative;
+    display: inline-block;
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.nav a{
+    text-decoration: none;
+    color:hsl(233, 26%, 24%) ;
+    font-size: 17px;
+    display: block;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#next-button{
+    position: absolute;
 }
 
 .nav-bar{
@@ -91,7 +146,7 @@ h3{
 }
 
 .article {
-    width: 325px;
+    width: 315px;
     height: 525px;
     box-shadow: 0 4px 8px 0 grey;
     margin-left: 2rem;
@@ -104,7 +159,7 @@ h3{
 
 .article img{
     border-radius: 2px;
-    width: 325px;
+    width: 315px;
 }
 
 .article p{
