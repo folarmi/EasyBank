@@ -240,6 +240,7 @@ h3{
 
     #upper-button{
         margin: auto;
+        margin-left: 25rem;
     }
 
 
@@ -260,7 +261,7 @@ h3{
     }   
     
     .banner img{
-        width: 500px;
+        width: 800px;
         background: url(images/bg-intro-desktop.svg);
     }
 
