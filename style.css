@@ -25,15 +25,12 @@ h1{
 }
 
 
-/* p{
-    color: 	#A9A9A9
-} */
-
 button{
     width: 10rem;
+    border: none;
     padding: 0.7rem;
     border-radius: 2rem;
-    margin-top: 2rem;
+    margin-top: 30%;
     color: white;
     background-image: linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
     font-family: 'Public Sans', sans-serif;
@@ -263,6 +260,10 @@ h3{
     .banner img{
         width: 700px;
         background: url(images/bg-intro-desktop.svg);
+    }
+    
+    .next h1{
+        margin-left: -1rem;
     }
 
     .next-banner{
