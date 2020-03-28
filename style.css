@@ -222,10 +222,26 @@ h3{
         display: flex;
     }
 
-    .nav-bar{
+    #nav-bar{
         margin: 0;
         padding: 0;
+        padding-left: 6rem;
+        text-align: initial;
+        display: inherit;
+        margin: 0;
+        position: relative;
+        background-color: white;
     }
+
+    .nav-bar img{
+        width: 150px;
+        height: 25px;
+    }
+
+    #upper-button{
+        margin: auto;
+    }
+
 
     .nav{
         display: inline-block;
