@@ -50,8 +50,8 @@ h3{
 }
   
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 30px;
+    height: 3px;
     background-color:hsl(136, 65%, 51%);
     margin: 6px 0;
     transition: 0.4s;
@@ -187,8 +187,7 @@ h3{
 }
 
 .social-media{
-    /* margin-top: 2rem; */
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .social-media img{
@@ -213,6 +212,13 @@ h3{
     padding-left: 2rem;
 }
 
+#heart{
+    color: red;
+}
+
+#lower-button{
+    margin-top: 20%;
+}
 
 @media only screen and (min-width:961px){
     nav{
